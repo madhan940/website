@@ -1,0 +1,167 @@
+body {
+  font-family: "IBM Plex Mono", monospace;
+  background-color: #dae0e1;
+  font-size: 10;
+}
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+.skill-list {
+  font-family: "Inknut Antiqua", serif;
+  font-size: medium;
+}
+
+img {
+  /*this limit width image*/
+  width: 110%;
+  left: 50%;
+  height: 680px;
+}
+nav {
+  background-color: #6b899a;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+header {
+  top: 80px;
+  position: relative;
+  margin-bottom: 220px;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -140px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 130%;
+}
+h2 {
+  font-size: 30px;
+  line-height: 130%;
+}
+h1,
+h2 {
+  font-weight: normal;
+}
+p {
+  line-height: 150%;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.button {
+  border: 1px solid black;
+  font-size: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  margin-top: 40px;
+  display: inline-block;
+  transition: background 0.5s ease-in-out;
+}
+.button:hover {
+  background: black;
+  color: white;
+}
+figcaption {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.intro-img {
+  box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+}
+
+.skill-list {
+  text-align: center;
+  font-size: 50px;
+  line-height: 150%;
+  margin-bottom: 130px;
+}
+.project {
+  margin: 30px 0;
+  padding: 30px;
+}
+
+.blue {
+  background-color: #6b899a;
+}
+
+.project .button {
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  margin: 100px;
+}
+footer h2 {
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+.right-alignment {
+  text-align: right;
+}
+
+li.empty {
+  width: 90px;
+  border-top: 1px solid rgb(243, 240, 240);
+  top: -5px;
+  position: relative;
+}
+
+nav li a {
+  text-decoration: none;
+  color: rgb(243, 240, 240);
+}
+nav li a:hover {
+  text-decoration: underline;
+}
+
+.gambar-intp {
+  width: 400px;       /* atur lebar sesuai kebutuhan */
+  height: 320px;      /* atur tinggi sesuai proporsi */
+  object-fit: cover;  /* menjaga proporsi */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgb(0, 0, 0);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+}
+.col-sm {
+  flex: 1;
+}
+
+.gallery-flex img:hover {
+  transform: scale(0.50);
+}
