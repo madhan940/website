@@ -1,2 +1,129 @@
-# website
-web
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<!-- add google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+	  <li><a href="#profile">profile</a></li>
+      <li class="empty"></li>
+	  <li><a href="Github">#Github</a></li>
+      <li><a href="https://www.instagram.com/rhmadrmdhon?igsh=MTMybzFnMThkeDhlcA==" target="_blank">Instagram</a></li>
+      <li><a href="https://www.tiktok.com/@rahmadramadhan611?_t=ZS-8wH2Z60oijC&_r=1" target="_blank">tiktok</a></li>
+    </ul>
+  </nav>
+
+		</ul>
+	</nav>
+	<header>
+		<div class="container">
+			<div class="row">
+				<!-- right coloum -->
+				<div class="col-sm">
+					<h1>hi, i’m</br>
+					Rahmad Ramadhan</h1>
+					<p class="bio-intro">
+    saya mahasiswa Informatika yang tak hanya tertarik pada dunia coding, tapi juga pada seni memimpin. 
+	Saya meyakini bahwa perubahan besar lahir dari ide kuat dan keberanian untuk bertindak. 
+	Bagi saya, kepemimpinan adalah tentang memberi arah, menjadi teladan, dan membawa dampak.
+	<br><br>
+					<ul >
+						<li>_💡 UX & Graphic Designer dengan pendekatan berbasis empati </li>
+						<li>_📘 Tertarik banget sama dunia kepribadian, growth mindset, dan self-discovery</li>
+						<li>_🔗 Sering kolaborasi bareng startup & komunitas yang peduli sama mental health dan edukasi digital</li>
+						<li>_🎙️ Pernah jadi pembicara soal desain & personal branding di beberapa event kreatif</li>
+					</ul> 
+					<a href="https://www.tiktok.com/@rahmadramadhan611?_t=ZS-8wH2Z60oijC&_r=1" class="button">add me on tiktok</a>
+					<a href="https://www.instagram.com/rhmadrmdhon?igsh=MTMybzFnMThkeDhlcA==" class="button">add me on instagram</a>
+				</div>
+				<!-- left coloum -->
+				<div class="col-sm">
+					<figure>
+						<img src="mato.jpg" class="intro-img" alt="Jennie">
+						<figcaption>
+						taken at Sausu Glamping
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<ul class="skill-list">
+			<li>01_graphic design</li>
+			<li>02_user experience</li>
+			<li>03_user interface design</li>
+			<li>04_design thinking</li>
+			<li>05_user research</li>
+		</ul>
+	</section>
+	<!-- projects -->
+	<section class="project blue">
+  <div class="container">
+    <div class="row">
+      <!-- Kolom Gambar -->
+      <div class="col-sm">
+        <figure>
+          <img src="rahmat.jpg" alt="INTP" class="gambar-intp">
+          <figcaption class="right-alignment"></figcaption>
+        </figure>
+      </div>
+      
+      <!-- Kolom Teks -->
+      <div class="col-sm">
+        <h2>KETUA UMUM <br>DEMA F-SAINTEK</h2>
+        <p>
+          Punya pemikiran super kompleks. Suka ngulik ide-ide baru dan punya cara mikir yang beda dari yang lain. 
+          Gak suka drama, tapi suka logika. Kalau otak lo bisa ngomong, mungkin dia gak bakal berhenti.
+        </p>
+        <a href="/detail.html" class="button">Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br> 
+
+	<!-- project2 -->
+	<section class="project blue">
+  <div class="container">
+    <div class="row">
+      <!-- Kolom Teks di kiri -->
+      <div class="col-sm">
+        <h2>KADER <br>HIMPUNAN MAHASISWA ISLAM</h2>
+        <p>
+          Punya pemikiran super kompleks. Suka ngulik ide-ide baru dan punya cara mikir yang beda dari yang lain. 
+          Gak suka drama, tapi suka logika. Kalau otak lo bisa ngomong, mungkin dia gak bakal berhenti.
+        </p>
+        <a href="/detail.html" class="button">Read More</a>
+      </div>
+      
+      <!-- Kolom Gambar di kanan -->
+      <div class="col-sm">
+        <figure>
+          <img src="ketua.jpg" alt="INTP" class="gambar-intp">
+          <figcaption class="right-alignment"></figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+		<footer id="contact">
+			<h2>any questions?<br>
+				find me here <br>rahmadawha098@gmail.com</h2>
+				<p>Designed & developed by Rahmat Ramadhan 2025</p>
+			</footer>
+		</body>
+		</html>
